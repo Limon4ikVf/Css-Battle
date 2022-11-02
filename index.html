@@ -23,6 +23,7 @@
 				<!-- Your code here -->
 				<div class="div__ex-1"></div>
 				<style>
+					
 					.div__ex-1 {
 						background: #b5e0ba;
 						height: 200px;
@@ -42,13 +43,31 @@
 <div class="battle">
 	<div class="battle__name">Ex.5</div>
 	<div class="battle__field">
-		<div class="body__ex-2">
+		<div class="body__ex-5">
 			<!-- Your code here -->
-			<div class="div1__ex-2"></div>
-			<div class="div2__ex-2"></div>
-			<div class="div3__ex-2"></div>
+			<div class="div1__ex-5"></div>
+			<div class="div2__ex-5"></div>
+			<div class="div3__ex-5"></div>
 			<style>
-				.div1__ex-2 {
+
+            .body__ex-5{
+               animation-name: my-animation1;
+               animation-duration: 2s;
+               animation-direction: alternate;
+               animation-iteration-count: infinite;
+               animation-timing-function: linear;
+             }
+
+              @keyframes my-animation1 {
+              from {
+                background-color: #ff7a59;
+              }
+              to {
+                background-color: #33475b;
+              }
+             }
+
+				.div1__ex-5 {
 					background: #F3AC3C;
 					height: 100px;
 					width: 100px;
@@ -60,7 +79,7 @@
 					top: 150px;
 				}
 
-				.div2__ex-2 {
+				.div2__ex-5 {
 					background: #998235;
 					width: 100px;
                     height: 100px;
@@ -72,7 +91,7 @@
 					z-index: 2;
 				}
 
-				.div3__ex-2 {
+				.div3__ex-5 {
 					background: #F3AC3C;
 					width: 100px;
                     height: 100px;
@@ -85,7 +104,7 @@
 				}
 
 
-				.body__ex-2 {
+				.body__ex-5 {
 					background: #0B2429;
 					padding-top: 1px;
 				}
@@ -105,6 +124,7 @@
 			<div class="div2__ex-6"></div>
 			<div class="div3__ex-6"></div>
 			<style>
+              
 				.div1__ex-6 {
 					background: #51B5A9;
 					height: 100px;
@@ -114,6 +134,7 @@
 					display: flex;
 					left: 100px;
 					top: 50px;
+					z-index: 1;
 				}
 
 				.div2__ex-6 {
@@ -137,8 +158,23 @@
 					left: 100px;
 				}
 
+				@keyframes my-animation2 {
+              from {
+                background-color: #ec2388;
+              }
+              to {
+                background-color: #560d64;
+              }
+             }
+
 				.body__ex-6 {
 					background:#E3516E;
+					animation-name: my-animation2;
+                    animation-duration: 2s;
+                    animation-direction: alternate;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+					
 				}
 			</style>
 		</div>
@@ -158,6 +194,23 @@
 			<div class="div4__ex-10"></div>
 			<div class="div5__ex-10"></div>
 			<style>
+				.body__ex-10{
+                 animation-name: my-animation3;
+                 animation-duration: 2s;
+                 animation-direction: alternate;
+                 animation-iteration-count: infinite;
+                 animation-timing-function: linear;
+             }
+
+              @keyframes my-animation3 {
+              from {
+                background-color: #1893cc;
+              }
+              to {
+                background-color: #d42610;
+              }
+             }
+
 				.div1__ex-10 {
 					background: #F7EC7D;
 					height: 100px;
